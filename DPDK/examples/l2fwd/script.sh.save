@@ -1,0 +1,5 @@
+mv temp main.c
+make
+#cd l2fwd/x86_64-native-linuxapp-gcc/app/
+cd build
+sudo ./l2fwd -c 1 -n 3 -- -q 1 -p 3
