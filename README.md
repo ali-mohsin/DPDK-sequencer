@@ -33,3 +33,4 @@ Then use options 10 --> 13 --> 17 --> 19 --> 31 from setup.sh
 >> sudo -E ./app/pktgen -c 0xffff -n 3 --proc-type auto --file-prefix pg -- -P -m "[8-9:10-12].0"
 
 Currently I am getting 12M throughput, however it might be refined by tweaking parameters
+--
